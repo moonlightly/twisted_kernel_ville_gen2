@@ -763,11 +763,11 @@ static int mipi_cmd_samsung_blue_qhd_pt_init(void)
 	pinfo.bl_max = 255;
 	pinfo.bl_min = 1;
 	pinfo.fb_num = 2;
-	pinfo.clk_rate = 420000000;
+	pinfo.clk_rate = 400000000;
 	pinfo.lcd.vsync_enable = TRUE;
 	pinfo.lcd.hw_vsync_mode = TRUE;
 	pinfo.lcd.vsync_notifier_period = (1 * HZ);
-	pinfo.lcd.refx100 = 6118; /* adjust refx100 to prevent tearing */
+	pinfo.lcd.refx100 = 6000; /* adjust refx100 to prevent tearing */
 
 	pinfo.mipi.mode = DSI_CMD_MODE;
 	pinfo.mipi.dst_format = DSI_CMD_DST_FORMAT_RGB888;
