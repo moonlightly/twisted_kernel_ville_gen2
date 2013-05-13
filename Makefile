@@ -1,8 +1,8 @@
 VERSION = 3
 PATCHLEVEL = 0
 SUBLEVEL = 77
-EXTRAVERSION =
-NAME = Sneaky Weasel
+EXTRAVERSION = TwiSteD_gen-2
+NAME = droyd
 
 # *DOCUMENTATION*
 # To see a list of typical targets execute "make help"
