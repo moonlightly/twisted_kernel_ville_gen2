@@ -1,5 +1,5 @@
 MODNAME := prima_wlan
-
+CFLAGS_btcApi.o += -Os
 #Do we panic on bug?  default is to warn
 PANIC_ON_BUG := 0
 
