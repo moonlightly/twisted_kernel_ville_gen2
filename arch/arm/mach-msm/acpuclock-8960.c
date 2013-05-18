@@ -533,13 +533,8 @@ static struct l2_level l2_freq_tbl_8960_kraitv2[] = {
 	[8]  = { {  756000, HFPLL, 1, 0, 0x1C }, 1150000, 1150000, 4 },
 	[9]  = { {  810000, HFPLL, 1, 0, 0x1E }, 1150000, 1150000, 4 },
 	[10] = { {  864000, HFPLL, 1, 0, 0x20 }, 1150000, 1150000, 4 },
-<<<<<<< HEAD
-	[11] = { {  918000, HFPLL, 1, 0, 0x22 }, 1150000, 1150000, 7 },
-	[12] = { {  972000, HFPLL, 1, 0, 0x24 }, 1150000, 1150000, 7 },
-=======
 	[11] = { {  918000, HFPLL, 1, 0, 0x22 }, 1150000, 1150000, 7 },	
 	[12] = { {  972000, HFPLL, 1, 0, 0x24 }, 1150000, 1150000, 7 },	
->>>>>>> 8dac06b... Initial commit.  This includes OC/UV, a handful of CPU governors, some extra IO schedulers, build optimizations, and other stuff.
 	[13] = { { 1026000, HFPLL, 1, 0, 0x26 }, 1150000, 1150000, 7 },
 	[14] = { { 1080000, HFPLL, 1, 0, 0x28 }, 1150000, 1150000, 7 },
 	[15] = { { 1134000, HFPLL, 1, 0, 0x2A }, 1150000, 1150000, 7 },
@@ -573,17 +568,10 @@ static struct acpu_level acpu_freq_tbl_8960_kraitv2_slow[] = {
 	{ 0, {  1404000, HFPLL, 1, 0, 0x34 }, L2(16), 1237500 },
 	{ 1, {  1458000, HFPLL, 1, 0, 0x36 }, L2(16), 1237500 },
 	{ 1, {  1512000, HFPLL, 1, 0, 0x38 }, L2(18), 1250000 },
-<<<<<<< HEAD
-        { 1, {  1674000, HFPLL, 1, 0, 0x3A }, L2(18), 1275000 },
-        { 1, {  1728000, HFPLL, 1, 0, 0x3C }, L2(19), 1300000 },
-        { 1, {  1809000, HFPLL, 1, 0, 0x3E }, L2(19), 1325000 },
-        { 1, {  1890000, HFPLL, 1, 0, 0x40 }, L2(19), 1350000 },
-=======
 		{ 1, {  1674000, HFPLL, 1, 0, 0x3A }, L2(18), 1275000 },
 		{ 1, {  1728000, HFPLL, 1, 0, 0x3C }, L2(19), 1300000 },
 		{ 1, {  1809000, HFPLL, 1, 0, 0x3E }, L2(19), 1325000 },
 		{ 1, {  1890000, HFPLL, 1, 0, 0x40 }, L2(19), 1350000 },
->>>>>>> 8dac06b... Initial commit.  This includes OC/UV, a handful of CPU governors, some extra IO schedulers, build optimizations, and other stuff.
 	{ 0, { 0 } }
 };
 
@@ -610,19 +598,11 @@ static struct acpu_level acpu_freq_tbl_8960_kraitv2_nom[] = {
 	{ 1, {  1350000, HFPLL, 1, 0, 0x32 }, L2(16), 1175000 },
 	{ 0, {  1404000, HFPLL, 1, 0, 0x34 }, L2(16), 1175000 },
 	{ 1, {  1458000, HFPLL, 1, 0, 0x36 }, L2(16), 1187500 },
-<<<<<<< HEAD
-	{ 1, {  1512000, HFPLL, 1, 0, 0x38 }, L2(18), 1200000 },
-        { 1, {  1674000, HFPLL, 1, 0, 0x3A }, L2(18), 1225000 },
-        { 1, {  1728000, HFPLL, 1, 0, 0x3C }, L2(19), 1250000 },
-        { 1, {  1809000, HFPLL, 1, 0, 0x3E }, L2(19), 1275000 },
-        { 1, {  1890000, HFPLL, 1, 0, 0x40 }, L2(19), 1300000 },
-=======
 	{ 1, {  1512000, HFPLL, 1, 0, 0x38 }, L2(18), 1200000 },	
 		{ 1, {  1674000, HFPLL, 1, 0, 0x3A }, L2(18), 1225000 },
 		{ 1, {  1728000, HFPLL, 1, 0, 0x3C }, L2(19), 1250000 },
 		{ 1, {  1809000, HFPLL, 1, 0, 0x3E }, L2(19), 1275000 },	
 		{ 1, {  1890000, HFPLL, 1, 0, 0x40 }, L2(19), 1300000 },
->>>>>>> 8dac06b... Initial commit.  This includes OC/UV, a handful of CPU governors, some extra IO schedulers, build optimizations, and other stuff.
 	{ 0, { 0 } }
 };
 
@@ -650,19 +630,11 @@ static struct acpu_level acpu_freq_tbl_8960_kraitv2_fast[] = {
 	{ 0, {  1404000, HFPLL, 1, 0, 0x34 }, L2(16), 1125000 },
 	{ 1, {  1458000, HFPLL, 1, 0, 0x36 }, L2(16), 1137500 },
 	{ 1, {  1512000, HFPLL, 1, 0, 0x38 }, L2(18), 1150000 },
-<<<<<<< HEAD
-        { 1, {  1674000, HFPLL, 1, 0, 0x3A }, L2(18), 1175000 },
-        { 1, {  1728000, HFPLL, 1, 0, 0x3C }, L2(19), 1200000 },
-        { 1, {  1809000, HFPLL, 1, 0, 0x3E }, L2(19), 1250000 },
-        { 1, {  1890000, HFPLL, 1, 0, 0x40 }, L2(19), 1275000 },
-        { 0, { 0 } }
-=======
 		{ 1, {  1674000, HFPLL, 1, 0, 0x3A }, L2(18), 1175000 },
 		{ 1, {  1728000, HFPLL, 1, 0, 0x3C }, L2(19), 1200000 },
 		{ 1, {  1809000, HFPLL, 1, 0, 0x3E }, L2(19), 1250000 },
 		{ 1, {  1890000, HFPLL, 1, 0, 0x40 }, L2(19), 1275000 },
 	{ 0, { 0 } }
->>>>>>> 8dac06b... Initial commit.  This includes OC/UV, a handful of CPU governors, some extra IO schedulers, build optimizations, and other stuff.
 };
 
 

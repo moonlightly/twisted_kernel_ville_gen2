@@ -831,7 +831,6 @@ static void dbs_refresh_callback(struct work_struct *unused)
 		return;
 	}
 
-<<<<<<< HEAD
 	if (policy->cur < policy->max) {
 		/*
 		 * Arch specific cpufreq driver may fail.
@@ -841,11 +840,6 @@ static void dbs_refresh_callback(struct work_struct *unused)
 					CPUFREQ_RELATION_L) >= 0)
 			policy->cur = policy->max;
 
-=======
-	if (policy->cur < DBS_INPUT_EVENT_MIN_FREQ) {
-		__cpufreq_driver_target(policy, DBS_INPUT_EVENT_MIN_FREQ,
-					CPUFREQ_RELATION_L);
->>>>>>> 8dac06b... Initial commit.  This includes OC/UV, a handful of CPU governors, some extra IO schedulers, build optimizations, and other stuff.
 		this_dbs_info->prev_cpu_idle = get_cpu_idle_time(cpu,
 				&this_dbs_info->prev_cpu_wall);
 	}

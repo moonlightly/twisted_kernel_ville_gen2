@@ -288,8 +288,6 @@ config CPU_FREQ_GOV_INTERACTIVE
 	  'interactive' - This driver adds a dynamic cpufreq policy governor
 	  designed for latency-sensitive workloads.
 
-<<<<<<< HEAD
-=======
 	  This governor attempts to reduce the latency of clock
 	  increases so that the system is more responsive to
 	  interactive workloads.
@@ -308,7 +306,6 @@ config CPU_FREQ_GOV_SMARTASS2
 	  'smartassV2' - a "smart" governor
 	  If in doubt, say N.
 
->>>>>>> 8dac06b... Initial commit.  This includes OC/UV, a handful of CPU governors, some extra IO schedulers, build optimizations, and other stuff.
 config CPU_FREQ_GOV_CONSERVATIVE
 	tristate "'conservative' cpufreq governor"
 	depends on CPU_FREQ
