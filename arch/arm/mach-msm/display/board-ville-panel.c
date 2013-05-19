@@ -767,7 +767,7 @@ static int mipi_cmd_samsung_blue_qhd_pt_init(void)
 	pinfo.lcd.vsync_enable = TRUE;
 	pinfo.lcd.hw_vsync_mode = TRUE;
 	pinfo.lcd.vsync_notifier_period = (1 * HZ);
-	pinfo.lcd.refx100 = 5650; /* adjust refx100 to prevent tearing */
+	pinfo.lcd.refx100 = 5850; /* adjust refx100 to prevent tearing */
 
 	pinfo.mipi.mode = DSI_CMD_MODE;
 	pinfo.mipi.dst_format = DSI_CMD_DST_FORMAT_RGB888;
